@@ -97,7 +97,7 @@ const imt = computed(()=>{
     min: 18.5,
     max: 25,
     description: 'Норма',
-    class: 'text-green-500',
+    class: 'text-green-800',
     recommendation: 0,
   }
 
@@ -180,7 +180,7 @@ const idealWeight = computed(()=>{
       </div>
     </label>
 
-    <div class="mt-4">Активность</div>
+    <div class="mt-4 ">Активность</div>
 
     <label class="flex gap-2" v-for="act in activityOptions">
       <input type="radio" name="activity" :value="act.value" v-model="activity" />
