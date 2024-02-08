@@ -1,24 +1,51 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue + TS</title>
+    <TITLE>Калькулятор калорий, калькулятор онлайн, конвертер</TITLE>
+    <meta charset="UTF-8">
+    <meta name="description" content="Контролируйте свое питание и достигайте лучших результатов в фитнесе с нашим удобным калькулятором калорий. Узнайте, как рассчитать свои калории, и выбирайте правильные продукты для достижения своих целей.">
+    <meta name="keywords" content="калькулятор калорий, расчет калорий, контроль питания, фитнес, диета, здоровье, правильное питание, снижение веса, набор массы, спортивные результаты, нутрициология, диетология">
+    <link rel="canonical" href="https://www.calc-u.ru">
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
   </head>
   <body>
-    <div class="container mx-auto mt-10">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();
+      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(96403055, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true
+      });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/96403055" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+    <div class="max-w-3xl p-4 mx-auto">
       <h1 class="text-3xl font-bold text-center">Калькулятор калорий</h1>
-      <p class="mt-4">
-        Калькулятор калорий позволит вам рассчитать то количество энергии,
-        которое необходимо ежедневно получать вашему организму в зависимости от вашего роста,
-        веса, возраста и степени физической активности (норма калорий).
-        Также этот вариант калькулятора калорий в результате расчёта выдаст
-        рекомендации по величине числа калорий, необходимой для снижения веса.
-        Рекомендации по величине калорий расписаны в виде примерного графика по дням недели
-        и будут полезны для тех, кто хочет понизить свой вес с помощью диеты.
-      </p>
       <div id="app"></div>
+      <h2 class="mt-4">
+        Контролируйте своё питание и достигайте своих целей в фитнесе вместе с нашим удобным калькулятором калорий! Узнайте, как верно рассчитать свои калории и какие продукты выбирать для достижения лучших результатов!
+      </h2>
+      <ul>
+        <title>
+          Наш калькулятор калорий поможет Вам:
+        </title>
+        <li>Определить свою суточную норму калорий</li>
+        <li>Контролировать свой рацион</li>
+        <li>Быстро и просто считать калории</li>
+        <li>Достигать своих фитнес-целей – снижать вес, набирать массу или поддерживать форму</li>
+        <li>Начните контролировать своё питание уже сегодня!</li>
+      </ul>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
