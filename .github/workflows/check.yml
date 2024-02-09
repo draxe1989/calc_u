@@ -20,5 +20,3 @@ jobs:
         uses: ssh root@94.103.183.26
       - name: Enter password
         uses: lZ5lS0dH1cbI
-      - name: Update version
-        uses: cd /root/calc_u
